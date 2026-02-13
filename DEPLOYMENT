@@ -1,0 +1,12 @@
+🔹 Backend Deployment (Render)
+
+Push code to GitHub
+
+Go to Render
+
+Create Web Service
+
+Add:
+css
+pip install -r requirements.txt
+gunicorn app:app

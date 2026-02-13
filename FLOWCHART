@@ -1,0 +1,19 @@
+START
+  ↓
+Read Soil Moisture
+  ↓
+Is Moisture < Threshold?
+   ↓ YES                ↓ NO
+Turn ON Pump        Turn OFF Pump
+  ↓
+Send Data to Backend
+  ↓
+Store in Database
+  ↓
+Frontend Displays Data
+  ↓
+User Manual Control?
+   ↓ YES → Send Command → Pump Control
+   ↓ NO
+  ↓
+Repeat

@@ -1,0 +1,9 @@
+[Sensors / ESP8266]
+        ↓
+[Flask Backend API]
+        ↓
+[MongoDB Database]
+        ↓
+[React Frontend Dashboard]
+        ↑
+   (Control Commands)

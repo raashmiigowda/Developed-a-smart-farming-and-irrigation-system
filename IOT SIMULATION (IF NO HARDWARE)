@@ -1,0 +1,16 @@
+import requests
+import random
+import time
+
+url = "http://localhost:5000/data"
+
+while True:
+    data = {
+        "moisture": random.randint(20, 80),
+        "temperature": random.randint(25, 40)
+    }
+
+    response = requests.post(url, json=data)
+    print(response.json())
+
+    time.sleep(5)
